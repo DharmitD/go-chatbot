@@ -9,7 +9,7 @@ import (
 	"net/http"
 )
 
-const openAIKey = "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" // Replace with your API key
+const openAIKey = "YOUR_OPENAI_API_KEY" // Replace with your API key
 
 func main() {
 	http.HandleFunc("/", indexHandler)
